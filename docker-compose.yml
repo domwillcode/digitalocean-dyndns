@@ -1,0 +1,5 @@
+services:
+  digitalocean-dyndns:
+    image: domwillcode/digitalocean-dyndns:latest
+    build:
+      context: .
